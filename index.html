@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Hong Gia Nguyen — hardware-focused engineer, data analyst, and computer vision practitioner." />
+  <title>Hong Gia Nguyen | Hardware & Data Engineering</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">HGN<span>.</span></a>
+    <nav aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" aria-label="Toggle colour theme">◐</button>
+  </header>
+
+  <main id="top">
+    <section class="hero section-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">HONG NGUYEN / ENGINEERING PORTFOLIO</p>
+        <h1>Hardware-minded.<br /><span>Data-driven.</span></h1>
+        <p class="lead">I build, troubleshoot, and understand computer systems—from physical hardware and cameras to computer vision models, databases, and analytical tools.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View selected work <span>↘</span></a>
+          <a class="button secondary" href="mailto:hongng234@gmail.com">Get in touch</a>
+        </div>
+      </div>
+      <aside class="status-card">
+        <div class="card-label">CURRENT STATUS</div>
+        <div class="status-line"><span class="pulse"></span> Open to technical opportunities</div>
+        <dl>
+          <div><dt>BASE</dt><dd>Finland</dd></div>
+          <div><dt>FOCUS</dt><dd>Hardware · SQL · CV</dd></div>
+          <div><dt>LANGUAGES</dt><dd>EN · VI · FI</dd></div>
+        </dl>
+      </aside>
+    </section>
+
+    <section id="about" class="content-section">
+      <div class="section-heading"><span>01</span><h2>About me</h2></div>
+      <div class="two-column">
+        <p class="large-text">Curious about how things work at every layer. My background combines a Master’s degree in Information Technology and Computer Vision with practical experience in data analysis, computer hardware, and technical problem-solving.</p>
+        <div class="skill-list">
+          <div><span class="number">01</span><h3>Hardware & systems</h3><p>PC building, diagnostics, component-level curiosity, cameras, and practical troubleshooting.</p></div>
+          <div><span class="number">02</span><h3>Data & engineering</h3><p>Python, SQL, database design, data collection, analysis, visualization, Azure, and MongoDB.</p></div>
+          <div><span class="number">03</span><h3>Computer vision</h3><p>OpenCV, CNNs, R-CNN, YOLO, model experimentation, evaluation, and deployment formats.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="content-section">
+      <div class="section-heading"><span>02</span><h2>Selected projects</h2></div>
+      <div class="project-grid">
+        <article class="project-card featured"><p class="project-type">COMPUTER VISION / MASTER'S THESIS</p><h3>Facial emotion & age recognition</h3><p>Explored facial emotion and age recognition using R-CNN and ensembles of CNN models across FER2013 and IMDb celebrity face datasets.</p><div class="tags"><span>TensorFlow</span><span>PyTorch</span><span>OpenCV</span><span>ONNX</span></div><div class="project-index">001</div></article>
+        <article class="project-card"><p class="project-type">HARDWARE / CAMERA EXPLORATION</p><h3>Inside a Nikon D90</h3><p>Disassembled an older DSLR to understand the mirror, shutter, and internal mechanical architecture of a camera system.</p><div class="tags"><span>Hardware</span><span>Photography</span><span>Mechanics</span></div><div class="project-index">002</div></article>
+        <article class="project-card"><p class="project-type">MACHINE LEARNING / DETECTION</p><h3>Pedestrian detection</h3><p>Implemented and studied pedestrian detection with HOG, LBP, SVM, and sliding-window methods using the INRIA dataset.</p><div class="tags"><span>Python</span><span>OpenCV</span><span>scikit-learn</span></div><div class="project-index">003</div></article>
+        <article class="project-card"><p class="project-type">INDUSTRIAL COMPUTER VISION</p><h3>Vessel & cargo detection</h3><p>Worked remotely on deep CNN and YOLOv2-based detection for vessels and cargo, including estimated dimensions for bridge clearance decisions.</p><div class="tags"><span>YOLOv2</span><span>Keras</span><span>NumPy</span></div><div class="project-index">004</div></article>
+        <article class="project-card"><p class="project-type">DATA / SQL ENGINEERING</p><h3>Operational data analysis</h3><p>Built a simple database workflow to collect, analyse, and visualise customer and worker data for operational use.</p><div class="tags"><span>SQL</span><span>Pandas</span><span>Azure</span><span>MongoDB</span></div><div class="project-index">005</div></article>
+        <article class="project-card"><p class="project-type">PERSONAL HARDWARE</p><h3>PC builds & diagnostics</h3><p>Built three personal PCs and diagnosed and repaired two systems for friends—hands-on practice with components, failure symptoms, and testing.</p><div class="tags"><span>PC hardware</span><span>Diagnostics</span><span>Testing</span></div><div class="project-index">006</div></article>
+      </div>
+      <p class="project-note">More project documentation and code can be added as individual GitHub repositories become available.</p>
+    </section>
+
+    <section id="experience" class="content-section">
+      <div class="section-heading"><span>03</span><h2>Experience & education</h2></div>
+      <div class="timeline">
+        <div class="timeline-item"><time>2024 — PRESENT</time><div><h3>Warehouse Worker · Posti Oy</h3><p>Collecting and packaging production goods while working with an internal shell-based system.</p></div></div>
+        <div class="timeline-item"><time>2021 — 2024</time><div><h3>Data Analyst · DTH-Palvelut Oy</h3><p>Database design, data collection, analysis, and visualisation using Python, SQL, Excel, Azure, and MongoDB.</p></div></div>
+        <div class="timeline-item"><time>2020 — 2021</time><div><h3>IT Helpdesk · RichRiverPhotography</h3><p>Built an event restaurant website with Wix and analysed customer data from operational and Instagram sources.</p></div></div>
+        <div class="timeline-item"><time>2019 — 2021</time><div><h3>MSc Information Technology · University of Eastern Finland</h3><p>Computer Vision specialisation. Thesis: Facial Emotional Recognition by Applying R-CNN.</p></div></div>
+        <div class="timeline-item"><time>2018 — 2019</time><div><h3>Big Data Analytics · Arcada University of Applied Sciences</h3><p>Specialisation programme.</p></div></div>
+        <div class="timeline-item"><time>2014 — 2018</time><div><h3>BSc Computer Science · Oulu University of Applied Sciences</h3><p>Bachelor programme in Computer Science.</p></div></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <p class="eyebrow">04 / CONTACT</p><h2>Let’s connect.</h2><p>Interested in hardware, data engineering, computer vision, or practical technical problem-solving?</p><a class="email-link" href="mailto:hongng234@gmail.com">hongng234@gmail.com <span>↗</span></a>
+      <div class="socials"><a href="https://github.com/hongng234" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/hong-nguyen-8a19b0a9/" target="_blank" rel="noreferrer">LinkedIn</a></div>
+    </section>
+  </main>
+  <footer><span>© 2026 Hong Gia Nguyen</span><span>Built with HTML, CSS & curiosity.</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
